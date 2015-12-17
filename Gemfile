@@ -11,6 +11,7 @@ gem 'jquery-rails', '~> 4.0.5'
 gem 'grape', '~> 0.13.0'
 gem 'uglifier', '~> 2.7.2'
 gem 'zip-zip', '~> 0.3'
+gem 'rails_semantic_logger'
 
 group :development, :test do
   gem 'rspec', '~> 3.4.0'
