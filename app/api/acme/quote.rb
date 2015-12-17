@@ -1,5 +1,3 @@
-require 'lib/quote_producer'
-
 module Acme
   class Quote < Grape::API
     desc 'Returns a random quote.'
