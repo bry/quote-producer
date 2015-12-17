@@ -8,6 +8,7 @@ Grape on Rails
 A [Grape](http://github.com/ruby-grape/grape) API mounted on Rails.
 
 * [ping](app/api/acme/ping.rb): a hello world `GET` API
+* [quote](app/api/acme/quote.rb): a random quote `GET` API
 * [post](app/api/acme/post.rb): post JSON data
 * [raise](app/api/acme/raise.rb): raise an error, Rails handling exceptions
 * [protected](app/api/acme/protected.rb): API protected with rudimentary Basic Authentication
@@ -15,7 +16,7 @@ A [Grape](http://github.com/ruby-grape/grape) API mounted on Rails.
 See
 ---
 
-An instance of this app is running on [grape-on-rails.herokuapp.com](http://grape-on-rails.herokuapp.com).
+An instance of this app is running on [quote-producer.herokuapp.com](https://quote-producer.herokuapp.com/).
 
 Run
 ---
